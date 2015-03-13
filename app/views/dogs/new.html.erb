@@ -1,0 +1,7 @@
+<%= form_for @new_dog_form, url: create_dog_path do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %><br>
+	<%= f.label :age %>
+	<%= f.text_field :age %><br>
+	<%= f.submit "Submit" %>
+<% end %>
